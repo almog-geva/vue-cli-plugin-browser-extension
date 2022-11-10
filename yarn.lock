@@ -129,6 +129,24 @@
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
 
+"@lulibuli/webpack-ext-reloader@^1.1.10":
+  version "1.1.10"
+  resolved "https://registry.yarnpkg.com/@lulibuli/webpack-ext-reloader/-/webpack-ext-reloader-1.1.10.tgz#925ff3c9124785d4ff0e415f60b9f4cac03f8d60"
+  integrity sha512-I5JUeapLUfVTVROorM/zuzSpnXVQVHwedmuTe16uCb7uFpNY/9HtQD5xwWBfdY8Sr6/EnPh6diwBitEPTrm2pQ==
+  dependencies:
+    "@types/webextension-polyfill" "^0.8.2"
+    "@types/webpack" "^5.28.0"
+    "@types/webpack-sources" "^3.2.0"
+    clean-webpack-plugin "^4.0.0"
+    colors "^1.4.0"
+    cross-env "^7.0.3"
+    lodash "^4.17.21"
+    minimist "^1.2.6"
+    useragent "^2.3.0"
+    webextension-polyfill "^0.8.0"
+    webpack-sources "^3.2.3"
+    ws "^8.4.2"
+
 "@node-ipc/js-queue@2.0.3":
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/@node-ipc/js-queue/-/js-queue-2.0.3.tgz#ac7fe33d766fa53e233ef8fedaf3443a01c5a4cd"
@@ -2372,23 +2390,6 @@ webidl-conversions@^3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-3.0.1.tgz#24534275e2a7bc6be7bc86611cc16ae0a5654871"
   integrity sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==
-
-webpack-ext-reloader@almog-geva/webpack-ext-reloader#1291895:
-  version "1.1.10"
-  resolved "https://codeload.github.com/almog-geva/webpack-ext-reloader/tar.gz/1291895334f5f9de5b069a618d7c4842ca3b1112"
-  dependencies:
-    "@types/webextension-polyfill" "^0.8.2"
-    "@types/webpack" "^5.28.0"
-    "@types/webpack-sources" "^3.2.0"
-    clean-webpack-plugin "^4.0.0"
-    colors "^1.4.0"
-    cross-env "^7.0.3"
-    lodash "^4.17.21"
-    minimist "^1.2.6"
-    useragent "^2.3.0"
-    webextension-polyfill "^0.8.0"
-    webpack-sources "^3.2.3"
-    ws "^8.4.2"
 
 webpack-sources@^3.2.3:
   version "3.2.3"
