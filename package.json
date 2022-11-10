@@ -1,6 +1,6 @@
 {
   "name": "@lulibuli/vue-cli-plugin-browser-extension",
-  "version": "0.26.0",
+  "version": "0.26.2",
   "description": "Browser extension development plugin for vue-cli 5.0",
   "main": "index.js",
   "keywords": [
